@@ -1,0 +1,14 @@
+# Source documents and everything derived from them (large; rebuild with ingest.py and text_index.py)
+data/raw/
+data/pages/
+data/pages.jsonl
+data/index/
+
+# Local and secret files
+.env
+*.zip
+__pycache__/
+*.pyc
+.vscode/
+ollama.log
+CLAUDE.md
